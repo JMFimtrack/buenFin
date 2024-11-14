@@ -125,6 +125,10 @@ section:nth-child(2) > article > header,footer {
   height: auto;
 }
 
+section:nth-child(2) > article > header {
+  border-right: 2px solid rgba(53,151,182,1);
+}
+
 /* Need More Work */
 section:nth-child(2) > article > header > h3 {
   margin: 20px 0 0 0;
@@ -238,7 +242,10 @@ section:nth-child(3) > article {
   font-weight: 300;
 
   background: rgba(237,242,252,0.8);
-  border-bottom: 2px solid rgba(53,151,182,255);
+  border-bottom: 2px solid linear-gradient(90deg, rgba(53,151,182,0) 0%, rgba(53,151,182,1) 20%, rgba(53,151,182,1) 50%, rgba(53,151,182,1) 80%, rgba(53,151,182,0) 100%);
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(0.25turn, rgba(53,151,182,0), rgba(53,151,182), rgba(53,151,182,0));
+  border-image-slice: 1;
   cursor: pointer;
 /*
   border-radius: 12px;
@@ -257,6 +264,10 @@ section:nth-child(3) > article:nth-child(5) {
 section:nth-child(3) > article > header,footer {
   width: 100%;
   height: auto;
+}
+
+section:nth-child(3) > article > header {
+  border-right: 2px solid rgba(53,151,182,255);
 }
 
 /* Need More Work */
