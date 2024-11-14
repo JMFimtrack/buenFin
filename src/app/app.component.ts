@@ -12,7 +12,8 @@ export class AppComponent {
   title = 'buen-fin';
 
   handleEvent($event: Event) {
-    alert('Redirect');
+    //alert('Redirect');
+    return null
   }
 
   buen($event: Event) {
