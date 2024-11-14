@@ -11,7 +11,7 @@ main {
 
   width: 100%;
   height: auto;
-  padding: 20px;
+  padding: 20px 0 120px 0;
 
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -117,6 +117,7 @@ section:nth-child(2) > article {
 
   background: rgba(237,242,252,0.8);
   border-radius: 12px;
+  cursor: pointer;
 }
 
 section:nth-child(2) > article > header,footer {
@@ -238,6 +239,7 @@ section:nth-child(3) > article {
 
   background: rgba(237,242,252,0.8);
   border-bottom: 2px solid rgba(53,151,182,255);
+  cursor: pointer;
 /*
   border-radius: 12px;
 */
@@ -315,17 +317,6 @@ section:nth-child(3) > article > footer > h4 > span {
   color: rgba(53,151,182,255);
 }
 
-/*
-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
-*/
 #back-image {
     position: absolute;
     top: 0;
@@ -334,4 +325,20 @@ video {
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+
+.sticky-image {
+  width: 80px;
+  height: 80px;
+
+  position: absolute;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.sticky-image:nth-child(3) {
+  left: 60%;
+}
+.sticky-image:nth-child(2) {
+  left: 30%;
 }

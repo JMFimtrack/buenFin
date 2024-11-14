@@ -14,4 +14,8 @@ export class AppComponent {
   handleEvent($event: Event) {
     alert('Redirect');
   }
+
+  buen($event: Event) {
+    window.location.href = "https://www.elbuenfin.org/consultaQR/5b661066-7f88-488b-a1b9-37db12405014";
+  }
 }
