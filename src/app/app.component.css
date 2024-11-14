@@ -170,7 +170,7 @@ section:nth-child(2) > article > footer > h3 {
   font-size: 72px;
   font-weight: 700;
   color: rgba(0,119,180,255);
-  margin: -14px 0 0 0;
+  margin: -10px 0 0 0;
   line-height: 52px;
 }
 
@@ -325,7 +325,7 @@ section:nth-child(3) > article > footer {
 section:nth-child(3) > article > footer > h3 {
   width: auto;
   height: auto;
-  margin: -12px 0 0 0;
+  margin: -8px 0 0 0;
 
   text-align: end;
   font-size: 72px;
@@ -336,7 +336,7 @@ section:nth-child(3) > article > footer > h3 {
 
 /* Need More Work */
 section:nth-child(3) > article > footer > h4 {
-  margin: -6px 0 0 -10px;
+  margin: -4px 0 0 -10px;
   text-align: start;
   font-size: 14px;
   font-weight: 700;
